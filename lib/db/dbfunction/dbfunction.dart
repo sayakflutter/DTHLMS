@@ -36,6 +36,10 @@ class DbHandler {
   createtable(String path) async {
     return await openDatabase(
       join(path, 'sayakdb.db'),
+      //     onCreate: (db, version) {
+      //   db.execute("CREATE TABLE Login(username TEXT,password TEXT)");
+      // },
+      //  version: 1
     );
   }
 }
