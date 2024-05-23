@@ -1,5 +1,5 @@
 import 'package:dthlms/ThemeData/FontSize/FontSize.dart';
-import 'package:dthlms/showpdf/showpdf.dart';
+// import 'package:dthlms/showpdf/showpdf.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 // import 'package:test_pdf_view/showpdf/showpdf.dart';
@@ -96,10 +96,10 @@ class _PdfViewState extends State<PdfView> {
                       // color: Color.fromARGB(255, 47, 47, 48),
                       child: ListTile(
                         onTap: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const PdfEdit()));
+                          // Navigator.push(
+                          //     context,
+                          //     MaterialPageRoute(
+                          //         builder: (context) => const PdfEdit()));
                         },
                         leading: Image.asset(
                           'assets/file.png',

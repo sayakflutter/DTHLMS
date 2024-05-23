@@ -1,4 +1,4 @@
-# Install script for directory: C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows/flutter/ephemeral/.plugin_symlinks/url_launcher_windows/windows
+# Install script for directory: C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows/flutter/ephemeral/.plugin_symlinks/url_launcher_windows/windows
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

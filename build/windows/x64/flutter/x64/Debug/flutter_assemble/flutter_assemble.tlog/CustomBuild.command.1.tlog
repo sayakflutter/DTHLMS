@@ -1,6 +1,6 @@
-^C:\SAYAK_MISHRA_FLUTTER\PROJECT_FLUTTER\SOLUTION_INFOTECH_DTHLMS\BUILD\WINDOWS\X64\CMAKEFILES\3DF420967BD615B312C8C80D34EEB90F\FLUTTER_WINDOWS.DLL.RULE
+^C:\SAYAK_MISHRA_FLUTTER\PROJECT_FLUTTER\DTHLMS\BUILD\WINDOWS\X64\CMAKEFILES\87550A84BB0EE38001285E6A2D77418C\FLUTTER_WINDOWS.DLL.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\User\Downloads\flutter\flutter PROJECT_DIR=C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms FLUTTER_ROOT=C:\Users\User\Downloads\flutter\flutter FLUTTER_EPHEMERAL_DIR=C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral PROJECT_DIR=C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms FLUTTER_TARGET=C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lNzZjOTU2NDk4ODQxZTFhYjQ1ODU3N2QzODkyMDAzZTU1M2U0ZjNjLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\.dart_tool\package_config.json C:/Users/User/Downloads/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\User\Downloads\flutter\flutter PROJECT_DIR=C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS FLUTTER_ROOT=C:\Users\User\Downloads\flutter\flutter FLUTTER_EPHEMERAL_DIR=C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral PROJECT_DIR=C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS FLUTTER_TARGET=C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lNzZjOTU2NDk4ODQxZTFhYjQ1ODU3N2QzODkyMDAzZTU1M2U0ZjNjLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\.dart_tool\package_config.json C:/Users/User/Downloads/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,7 +8,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\SAYAK_MISHRA_FLUTTER\PROJECT_FLUTTER\SOLUTION_INFOTECH_DTHLMS\BUILD\WINDOWS\X64\CMAKEFILES\0937BC616BA2CB184733C857DB49679A\FLUTTER_ASSEMBLE.RULE
+^C:\SAYAK_MISHRA_FLUTTER\PROJECT_FLUTTER\DTHLMS\BUILD\WINDOWS\X64\CMAKEFILES\5BC1B0BB293031E4478B5D5C750DD46C\FLUTTER_ASSEMBLE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -16,9 +16,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\SAYAK_MISHRA_FLUTTER\PROJECT_FLUTTER\SOLUTION_INFOTECH_DTHLMS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+^C:\SAYAK_MISHRA_FLUTTER\PROJECT_FLUTTER\DTHLMS\WINDOWS\FLUTTER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

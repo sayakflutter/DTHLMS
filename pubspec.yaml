@@ -50,7 +50,6 @@ dependencies:
   permission_handler: ^11.3.1
   encrypt: ^5.0.3
   device_info_plus: ^9.0.2
-  pspdfkit_flutter: ^3.10.0
   intl:
   webview_flutter:
   sqflite_common: ^2.5.4

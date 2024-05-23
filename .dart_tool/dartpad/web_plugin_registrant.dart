@@ -8,7 +8,6 @@
 
 import 'package:device_info_plus/src/device_info_plus_web.dart';
 import 'package:permission_handler_html/permission_handler_html.dart';
-import 'package:pspdfkit_flutter/src/pspdfkit_flutter_web.dart';
 import 'package:syncfusion_pdfviewer_web/pdfviewer_web.dart';
 import 'package:url_launcher_web/url_launcher_web.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
@@ -17,7 +16,6 @@ void registerPlugins([final Registrar? pluginRegistrar]) {
   final Registrar registrar = pluginRegistrar ?? webPluginRegistrar;
   DeviceInfoPlusWebPlugin.registerWith(registrar);
   WebPermissionHandler.registerWith(registrar);
-  PspdfkitFlutterWeb.registerWith(registrar);
   SyncfusionFlutterPdfViewerPlugin.registerWith(registrar);
   UrlLauncherPlugin.registerWith(registrar);
   registrar.registerMessageHandler();

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\flutter_platform_alert_plugin.cpp">
+    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\flutter_platform_alert_plugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\CMakeLists.txt" />
+    <CustomBuild Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{99205C20-B337-3296-88F6-D6A87AC8525D}</UniqueIdentifier>
+      <UniqueIdentifier>{F64692A5-C71A-3485-B74E-5EC9D69F37FF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

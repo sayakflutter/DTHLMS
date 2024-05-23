@@ -1,6 +1,6 @@
-^C:\SAYAK_MISHRA_FLUTTER\PROJECT_FLUTTER\SOLUTION_INFOTECH_DTHLMS\WINDOWS\CMAKELISTS.TXT
+^C:\SAYAK_MISHRA_FLUTTER\PROJECT_FLUTTER\DTHLMS\WINDOWS\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

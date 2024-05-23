@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0C623E3F-7D37-32F6-A967-7ABB55A18F54}</ProjectGuid>
+    <ProjectGuid>{AB01FA7C-9F5B-3F1E-B64A-1F7E5EB1756D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -50,19 +50,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\runner\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\runner\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dthlms.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dthlms</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\runner\Profile\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\runner\Profile\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">dthlms.dir\Profile\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">dthlms</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\runner\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\runner\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dthlms.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dthlms</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -71,7 +71,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -91,10 +91,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.0.0+1\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=0;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -102,25 +102,25 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\flutter\Debug\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\flutter_platform_alert\Debug\flutter_platform_alert_plugin.lib;..\plugins\permission_handler_windows\Debug\permission_handler_windows_plugin.lib;..\plugins\syncfusion_pdfviewer_windows\Debug\syncfusion_pdfviewer_windows_plugin.lib;..\plugins\url_launcher_windows\Debug\url_launcher_windows_plugin.lib;..\plugins\window_size\Debug\window_size_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\flutter\Debug\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\flutter_platform_alert\Debug\flutter_platform_alert_plugin.lib;..\plugins\permission_handler_windows\Debug\permission_handler_windows_plugin.lib;..\plugins\syncfusion_pdfviewer_windows\Debug\syncfusion_pdfviewer_windows_plugin.lib;..\plugins\url_launcher_windows\Debug\url_launcher_windows_plugin.lib;..\plugins\window_size\Debug\window_size_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/Debug/dthlms.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/Debug/dthlms.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/Debug/dthlms.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/Debug/dthlms.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <Manifest>
-      <AdditionalManifestFiles>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+      <AdditionalManifestFiles>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -140,10 +140,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.0.0+1\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=0;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -151,25 +151,25 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\flutter\Profile\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\flutter_platform_alert\Profile\flutter_platform_alert_plugin.lib;..\plugins\permission_handler_windows\Profile\permission_handler_windows_plugin.lib;..\plugins\syncfusion_pdfviewer_windows\Profile\syncfusion_pdfviewer_windows_plugin.lib;..\plugins\url_launcher_windows\Profile\url_launcher_windows_plugin.lib;..\plugins\window_size\Profile\window_size_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\flutter\Profile\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\flutter_platform_alert\Profile\flutter_platform_alert_plugin.lib;..\plugins\permission_handler_windows\Profile\permission_handler_windows_plugin.lib;..\plugins\syncfusion_pdfviewer_windows\Profile\syncfusion_pdfviewer_windows_plugin.lib;..\plugins\url_launcher_windows\Profile\url_launcher_windows_plugin.lib;..\plugins\window_size\Profile\window_size_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/Profile/dthlms.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/Profile/dthlms.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/Profile/dthlms.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/Profile/dthlms.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <Manifest>
-      <AdditionalManifestFiles>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+      <AdditionalManifestFiles>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.0.0+1\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=0;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\flutter_platform_alert\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,28 +200,28 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\flutter\Release\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\flutter_platform_alert\Release\flutter_platform_alert_plugin.lib;..\plugins\permission_handler_windows\Release\permission_handler_windows_plugin.lib;..\plugins\syncfusion_pdfviewer_windows\Release\syncfusion_pdfviewer_windows_plugin.lib;..\plugins\url_launcher_windows\Release\url_launcher_windows_plugin.lib;..\plugins\window_size\Release\window_size_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\flutter\Release\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\flutter_platform_alert\Release\flutter_platform_alert_plugin.lib;..\plugins\permission_handler_windows\Release\permission_handler_windows_plugin.lib;..\plugins\syncfusion_pdfviewer_windows\Release\syncfusion_pdfviewer_windows_plugin.lib;..\plugins\url_launcher_windows\Release\url_launcher_windows_plugin.lib;..\plugins\window_size\Release\window_size_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/Release/dthlms.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/Release/dthlms.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/Release/dthlms.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/Release/dthlms.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <Manifest>
-      <AdditionalManifestFiles>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+      <AdditionalManifestFiles>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\CMakeLists.txt">
+    <CustomBuild Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -230,11 +230,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,11 +243,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -256,53 +256,53 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\flutter_window.cpp" />
-    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\main.cpp" />
-    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\utils.cpp" />
-    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\win32_window.cpp" />
-    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\generated_plugin_registrant.cc" />
-    <ResourceCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\runner\Runner.rc" />
+    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\flutter_window.cpp" />
+    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\main.cpp" />
+    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\utils.cpp" />
+    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\win32_window.cpp" />
+    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\generated_plugin_registrant.cc" />
+    <ResourceCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\runner\Runner.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{4DD2BF2E-C8AA-361D-81FF-8BCD20472D25}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{9E1C4A7A-2254-39D6-80C0-8CE198C83751}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\flutter\flutter_assemble.vcxproj">
-      <Project>{567CF1EC-1DEA-3067-B0A1-D807C33E26B2}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\flutter\flutter_assemble.vcxproj">
+      <Project>{C486F6AD-85E5-3E89-B4B5-425C8C5142DA}</Project>
       <Name>flutter_assemble</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\flutter_platform_alert\flutter_platform_alert_plugin.vcxproj">
-      <Project>{942726F5-B64F-3C66-9CE1-9B673D6D20EE}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\flutter_platform_alert\flutter_platform_alert_plugin.vcxproj">
+      <Project>{2211C198-9E25-349F-9A42-79E047D6DF3F}</Project>
       <Name>flutter_platform_alert_plugin</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\flutter\flutter_wrapper_app.vcxproj">
-      <Project>{F4D0E2BD-CF63-3513-A099-34CC7165266F}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\flutter\flutter_wrapper_app.vcxproj">
+      <Project>{9EA2C02F-900F-3CFF-9BB6-62DFCDBE82D2}</Project>
       <Name>flutter_wrapper_app</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\permission_handler_windows\permission_handler_windows_plugin.vcxproj">
-      <Project>{0F14087A-9F37-3E12-A1F6-F997E8C94E05}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\permission_handler_windows\permission_handler_windows_plugin.vcxproj">
+      <Project>{EE845AA5-29C9-3161-A1A0-1B1E067BF3FA}</Project>
       <Name>permission_handler_windows_plugin</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\syncfusion_pdfviewer_windows\syncfusion_pdfviewer_windows_plugin.vcxproj">
-      <Project>{61FCBC00-076B-3D75-8F86-3E9128EBFAFE}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\syncfusion_pdfviewer_windows\syncfusion_pdfviewer_windows_plugin.vcxproj">
+      <Project>{1E4C9A45-3DC8-38BC-A3EC-C54F5E89E6F0}</Project>
       <Name>syncfusion_pdfviewer_windows_plugin</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\url_launcher_windows\url_launcher_windows_plugin.vcxproj">
-      <Project>{A9558DBB-BBA5-3D4F-BE66-CB0D2DA48BF1}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\url_launcher_windows\url_launcher_windows_plugin.vcxproj">
+      <Project>{0A1F65AF-9C76-3ED8-94A5-6999EC6B7E01}</Project>
       <Name>url_launcher_windows_plugin</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\window_size\window_size_plugin.vcxproj">
-      <Project>{1145CBB5-DCFA-3820-B695-152EAFA4ECA7}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\window_size\window_size_plugin.vcxproj">
+      <Project>{D1303B5D-D504-37C4-BBF3-A76B4093413A}</Project>
       <Name>window_size_plugin</Name>
     </ProjectReference>
   </ItemGroup>

@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0F14087A-9F37-3E12-A1F6-F997E8C94E05}</ProjectGuid>
+    <ProjectGuid>{EE845AA5-29C9-3161-A1A0-1B1E067BF3FA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -50,19 +50,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\permission_handler_windows\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\permission_handler_windows\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">permission_handler_windows_plugin.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">permission_handler_windows_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\permission_handler_windows\Profile\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\permission_handler_windows\Profile\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">permission_handler_windows_plugin.dir\Profile\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">permission_handler_windows_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\permission_handler_windows\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\permission_handler_windows\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">permission_handler_windows_plugin.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">permission_handler_windows_plugin</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
@@ -71,8 +71,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/include" /await</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/include" /await</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -93,10 +93,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;FLUTTER_PLUGIN_IMPL;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";permission_handler_windows_plugin_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -104,13 +104,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\flutter\Debug\flutter_wrapper_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\flutter\Debug\flutter_wrapper_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/Debug/permission_handler_windows_plugin.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/Debug/permission_handler_windows_plugin.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/Debug/permission_handler_windows_plugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/Debug/permission_handler_windows_plugin.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -119,8 +119,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/include" /await</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/include" /await</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -141,10 +141,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_PLUGIN_IMPL;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\";permission_handler_windows_plugin_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -152,13 +152,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\flutter\Profile\flutter_wrapper_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\flutter\Profile\flutter_wrapper_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/Profile/permission_handler_windows_plugin.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/Profile/permission_handler_windows_plugin.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/Profile/permission_handler_windows_plugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/Profile/permission_handler_windows_plugin.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -167,8 +167,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/include" /await</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/include" /await</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_PLUGIN_IMPL;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";permission_handler_windows_plugin_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,13 +200,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\flutter\Release\flutter_wrapper_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\flutter\Release\flutter_wrapper_plugin.lib;C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/Release/permission_handler_windows_plugin.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/Release/permission_handler_windows_plugin.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/Release/permission_handler_windows_plugin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/Release/permission_handler_windows_plugin.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -214,11 +214,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\CMakeLists.txt">
+    <CustomBuild Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows/flutter/ephemeral/.plugin_symlinks/permission_handler_windows/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows/flutter/ephemeral/.plugin_symlinks/permission_handler_windows/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -227,11 +227,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\permission_handler_windows\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\permission_handler_windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows/flutter/ephemeral/.plugin_symlinks/permission_handler_windows/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows/flutter/ephemeral/.plugin_symlinks/permission_handler_windows/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -240,11 +240,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\permission_handler_windows\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\permission_handler_windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows/flutter/ephemeral/.plugin_symlinks/permission_handler_windows/windows/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows/flutter/ephemeral/.plugin_symlinks/permission_handler_windows/windows/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/solution_infotech_dthlms/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/windows -BC:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64 --check-stamp-file C:/SAYAK_MISHRA_FLUTTER/project_flutter/DTHLMS/build/windows/x64/plugins/permission_handler_windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,29 +253,29 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\plugins\permission_handler_windows\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\plugins\permission_handler_windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include\permission_handler_windows\permission_handler_windows_plugin.h" />
-    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\permission_handler_windows_plugin.cpp" />
+    <ClInclude Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\include\permission_handler_windows\permission_handler_windows_plugin.h" />
+    <ClCompile Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\windows\flutter\ephemeral\.plugin_symlinks\permission_handler_windows\windows\permission_handler_windows_plugin.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{4DD2BF2E-C8AA-361D-81FF-8BCD20472D25}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{9E1C4A7A-2254-39D6-80C0-8CE198C83751}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\flutter\flutter_assemble.vcxproj">
-      <Project>{567CF1EC-1DEA-3067-B0A1-D807C33E26B2}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\flutter\flutter_assemble.vcxproj">
+      <Project>{C486F6AD-85E5-3E89-B4B5-425C8C5142DA}</Project>
       <Name>flutter_assemble</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\solution_infotech_dthlms\build\windows\x64\flutter\flutter_wrapper_plugin.vcxproj">
-      <Project>{BA602707-F918-354C-A3E1-6D8FAC384EB0}</Project>
+    <ProjectReference Include="C:\SAYAK_MISHRA_FLUTTER\project_flutter\DTHLMS\build\windows\x64\flutter\flutter_wrapper_plugin.vcxproj">
+      <Project>{6B6CDA84-2EEF-3843-A45D-D570EBD4FED1}</Project>
       <Name>flutter_wrapper_plugin</Name>
     </ProjectReference>
   </ItemGroup>
